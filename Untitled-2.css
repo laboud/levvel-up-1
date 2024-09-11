@@ -1,0 +1,60 @@
+/* Website background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Cool_Wallpaper_HD_8087_1600x900_px.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header design */
+header {
+    background-color: rgba(255, 2, 2, 0.562);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Page content */
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.527);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Ad container */
+.ad-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Transparent Ad box */
+.ad-box {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(240, 239, 239, 0.5); /* Semi-transparent background */
+    border: 2px solid #e41111;
+    text-align: center;
+    line-height: 150px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* Footer design */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
